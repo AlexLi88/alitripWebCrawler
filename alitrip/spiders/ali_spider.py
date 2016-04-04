@@ -30,7 +30,7 @@ class AliSpider(scrapy.Spider):
 		elem.click()
 
 		print("input form")
-		driver.find_element_by_xpath("(//input[@name='depCityName'])[2]").send_keys("PVG")
+		driver.find_element_by_xpath("(//input[@name='depCityName'])[2]").send_keys("PEK")
 		driver.find_element_by_xpath("(//input[@name='arrCityName'])[2]").send_keys("YVR")
 		driver.find_element_by_xpath("(//input[@name='depDate'])[2]").send_keys("2016-06-13")
 		driver.find_element_by_xpath("(//input[@name='arrDate'])[2]").send_keys("2016-06-25")
